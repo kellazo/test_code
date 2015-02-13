@@ -12,15 +12,15 @@ int main(int argc, char** argv) // unsign sense signe  tipus basics de C i rangs
 //com fas varies cadenes doncs amb un char* com guardes una llista de char* amb char**
 // es com char argc[ò][ò]; i char argc[`1][`0]; es com una taula.
 {
-	char c[10] = "hola";
-	char cc = 'R';
-	printf("%s", &cc);
+	//char c[10] = "hola";
+	//char cc = 'R';
+	//printf("%s", &cc);
 
-	c[0] = 'h';
-	c[1] = 'o';
-	c[2] = 'l';
-	c[3] = 'a';
-	c[4] = '\0';
+	char c[0] = 'h';
+	char c[1] = 'o';
+	char c[2] = 'l';
+	char c[3] = 'a';
+	char c[4] = '\0';
 	printf("%s", &c[1]);
 	//char*pc = &c;
 	//printf("%s", pc);
