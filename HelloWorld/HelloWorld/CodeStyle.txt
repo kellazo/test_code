@@ -1,0 +1,28 @@
+CodeStyle for Guillem Munoz on project "HelloWorld"
+
+Quin sera format de crear les classes varialbes, manera nom fitxers.
+
+tipus de nomencaltura
+
+camelCase
+PascalCase
+snake_case
+
+Hungarian Notation		bool bPepito  int iPepito;	char*	szPepito;	String sPepito;
+
+Filename:
+-Will use PascalCase skipping the first two letter
+-Example: p2Log.h
+
+Variables:
+-Will use snake_case without Hungarian Notation
+Example: int screen_width
+
+
+Class Names:
+-Will use PascalCase
+-Example: class Point2f
+
+Method Names:
+- Using camelCase
+-Example: iszero()
