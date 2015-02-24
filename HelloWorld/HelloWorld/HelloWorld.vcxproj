@@ -71,6 +71,7 @@
   <ItemGroup>
     <ClInclude Include="p2Log.h" />
     <ClInclude Include="Point2f.h" />
+    <ClInclude Include="String.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CodeStyle.txt" />

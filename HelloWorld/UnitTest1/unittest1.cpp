@@ -1,6 +1,9 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
+
 #include "../HelloWorld/Point2f.h"
+
+
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
@@ -19,7 +22,7 @@ namespace UnitTest1
 			Assert::IsTrue(punt.isZero()); //crida propietat estatica classe que es diu assert i estem cridant el metode istrue :: crida metode static
 		}
 
-		TEST_METHOD(TestPoint2f) //es una macro
+		/*TEST_METHOD(TestPoint2f) //es una macro
 		{
 			// TODO: Agregar aquí el código de la prueba
 			Point2f punt, p2, p3;
@@ -33,7 +36,15 @@ namespace UnitTest1
 			punt = p2 + p3;;
 
 			Assert::IsTrue(punt.isZero()); //crida propietat estatica classe que es diu assert i estem cridant el metode istrue :: crida metode static
+		}*/
+
+		TEST_METHOD(TestString) //es una macro
+		{
+			// TODO: Agregar aquí el código de la prueba
+			//String cadena;
 		}
+
+		
 
 	};
 }

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <String.h>
 
 int main(int argc, char** argv) // unsign sense signe  tipus basics de C i rangs de valors
 //quan ocupa un punter depen del tamañ de la memoria dreccionable. de la arquitectura si es 32 o 64 bytes.
@@ -13,6 +14,10 @@ int main(int argc, char** argv) // unsign sense signe  tipus basics de C i rangs
 //com fas varies cadenes doncs amb un char* com guardes una llista de char* amb char**
 // es com char argc[ò][ò]; i char argc[`1][`0]; es com una taula.
 {
+
+	String p;
+
+
 	char c[10] = "hola";
 	//char cc = 'R';
 	//printf("%s", &cc);
