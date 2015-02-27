@@ -25,6 +25,8 @@ public:
 		 strcpy_s(cadena, tamany, c);
 	 }
 
+
+
 	 String(const String&);
 
 	 ~String()
