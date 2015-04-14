@@ -69,7 +69,9 @@
     <ClCompile Include="main2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="DynArray.h" />
+    <ClInclude Include="p2List.h" />
     <ClInclude Include="p2Log.h" />
     <ClInclude Include="Point2f.h" />
     <ClInclude Include="Queue.h" />
