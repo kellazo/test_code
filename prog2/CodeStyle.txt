@@ -1,0 +1,20 @@
+
+
+File Name
+Will use PascalCase
+Ex: Point2D.h; String.cpp;
+
+
+Variables
+Will use camel case, without Hungarian notation.
+Ex: int positionX; int isJumpingHigh;
+
+
+Class Names
+Will use PascalCase with a c at start to differentiate from any other method or variable.
+Ex: cPoint2
+
+
+Methods
+Will use PascalCase describing what it does, but always keeping it simple.
+Ex: MultiplyTwo(); IsZero();

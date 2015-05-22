@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+#include "FuncionesSinClasificar.h"
+#include "Point2D.h"
+#include "Log.h"
+#include "String.h"
+
+
+int main()
+{
+	return 0;
+}
