@@ -34,6 +34,9 @@ private:
 	}
 
 public:
+
+	uint left_index = 0;
+
 	cQueue(){ data = NULL; numElements = 0; element0 = 0; allocatedMemory = 0; }
 
 	~cQueue()
@@ -43,7 +46,8 @@ public:
 
 	const unsigned int Count() const
 	{
-		return numElements;
+		return data - count() - left_index;
+		
 	}
 
 	bool Shrink()
@@ -80,11 +84,10 @@ public:
 
 	TYPE Pop()
 	{
-		if (numElements >= 1)
+		if (left_index < data.Count())
 		{
-			numElements--;
-			element0++;
-			return data[element0 - 1];
+			item = data[left_index++]
+			return true
 		}
 
 		return NULL;

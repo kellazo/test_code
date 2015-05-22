@@ -74,6 +74,7 @@
     <ClInclude Include="DLinkedList.h" />
     <ClInclude Include="FuncionesSinClasificar.h" />
     <ClInclude Include="Group.h" />
+    <ClInclude Include="QueueListToArray.h" />
     <ClInclude Include="Stack.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="SLinkedList.h" />
